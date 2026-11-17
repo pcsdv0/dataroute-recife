@@ -1,0 +1,341 @@
+﻿Arquivo,Variável,Tipo,Descrição,Exemplo,% Nulos
+sinistros_2015.csv,tipo,object,Tipo de sinistro registrado,SEM VÍTIMA,0.0
+sinistros_2015.csv,situacao,object,Situação registrada da ocorrência,CANCELADA,0.01
+sinistros_2015.csv,data,object,Data do registro do sinistro,2015-12-03,0.0
+sinistros_2015.csv,hora,object,Horário registrado do sinistro,11:36:00.000,0.0
+sinistros_2015.csv,bairro,object,Bairro onde ocorreu o sinistro,CASA AMARELA,0.69
+sinistros_2015.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV NORTE,0.96
+sinistros_2015.csv,numero,object,Número do endereço informado,120,66.22
+sinistros_2015.csv,complemento,object,Informações complementares sobre o local do sinistro,SENTIDO SUBURBIO   E/F AO SESC,1.37
+sinistros_2015.csv,natureza,object,Natureza do sinistro,COLISÃO,0.77
+sinistros_2015.csv,descricao,object,Descrição textual da ocorrência,COLISÃO SEM VITIMAS,3.16
+sinistros_2015.csv,auto,object,Informação sobre automóveis envolvidos,1,10.57
+sinistros_2015.csv,moto,object,Informação sobre motocicletas envolvidas,2,75.59
+sinistros_2015.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,98.85
+sinistros_2015.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,99.15
+sinistros_2015.csv,pedestre,object,Informação sobre pedestres envolvidos,1,98.68
+sinistros_2015.csv,onibus,object,Informação sobre ônibus envolvidos,1,85.56
+sinistros_2015.csv,caminhao,object,Informação sobre caminhões envolvidos,1,89.04
+sinistros_2015.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,99.23
+sinistros_2015.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,99.01
+sinistros_2015.csv,vitimas,object,Quantidade de vítimas registrada,0,0.48
+sinistros_2016.csv,data,object,Data do registro do sinistro,2016-01-01,0.0
+sinistros_2016.csv,hora,object,Horário registrado do sinistro,00:58:00,0.05
+sinistros_2016.csv,natureza_acidente,object,Natureza do acidente,SEM VÍTIMA,1.31
+sinistros_2016.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.0
+sinistros_2016.csv,bairro,object,Bairro onde ocorreu o sinistro,IPUTINGA,0.52
+sinistros_2016.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV JORNALISTA POSSIDONIO CAVALCANTI BASTOS,0.58
+sinistros_2016.csv,numero,object,Número do endereço informado,20,56.54
+sinistros_2016.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,AV PROFESSOR JOSE DOS ANJOS,99.8
+sinistros_2016.csv,complemento,object,Informações complementares sobre o local do sinistro,PROX A PONTE DA SALVAÇAO,0.69
+sinistros_2016.csv,endereco_cruzamento,object,Logradouro do cruzamento associado ao sinistro,AV JORNALISTA POSSIDONIO CAVALCANTI BASTOS,0.01
+sinistros_2016.csv,numero_cruzamento,object,Número do endereço associado ao cruzamento,0,0.06
+sinistros_2016.csv,referencia_cruzamento,object,Ponto de referência associado ao cruzamento,PROX A PONTE DA SALVAÇAO,0.04
+sinistros_2016.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,IPUTINGA,0.0
+sinistros_2016.csv,tipo,object,Tipo de sinistro registrado,COLISÃO,0.0
+sinistros_2016.csv,descricao,object,Descrição textual da ocorrência,COLISAO ENTRE UMA VIATUA E UM CAMINHAO S/V,1.65
+sinistros_2016.csv,auto,object,Informação sobre automóveis envolvidos,1,8.85
+sinistros_2016.csv,moto,object,Informação sobre motocicletas envolvidas,1,75.18
+sinistros_2016.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,99.0
+sinistros_2016.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,99.01
+sinistros_2016.csv,pedestre,object,Informação sobre pedestres envolvidos,1,97.67
+sinistros_2016.csv,onibus,object,Informação sobre ônibus envolvidos,1,84.91
+sinistros_2016.csv,caminhao,object,Informação sobre caminhões envolvidos,1,90.4
+sinistros_2016.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,98.97
+sinistros_2016.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,98.94
+sinistros_2016.csv,vitimas,object,Quantidade de vítimas registrada,0,1.11
+sinistros_2016.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,1,99.65
+sinistros_2017.csv,data,object,Data do registro do sinistro,2017-01-01,0.0
+sinistros_2017.csv,hora,object,Horário registrado do sinistro,02:55:00,0.17
+sinistros_2017.csv,natureza_acidente,object,Natureza do acidente,SEM VÍTIMA,1.41
+sinistros_2017.csv,situacao,object,Situação registrada da ocorrência,CANCELADA,0.37
+sinistros_2017.csv,bairro,object,Bairro onde ocorreu o sinistro,CABANGA,0.09
+sinistros_2017.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV SUL,0.16
+sinistros_2017.csv,numero,object,Número do endereço informado,483,54.28
+sinistros_2017.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,AV PROFESSOR JOSE DOS ANJOS,99.58
+sinistros_2017.csv,complemento,object,Informações complementares sobre o local do sinistro,SEMAFORO 260,0.59
+sinistros_2017.csv,endereco_cruzamento,object,Logradouro do cruzamento associado ao sinistro,AV SUL,0.07
+sinistros_2017.csv,numero_cruzamento,object,Número do endereço associado ao cruzamento,0,13.96
+sinistros_2017.csv,referencia_cruzamento,object,Ponto de referência associado ao cruzamento,SEMAFORO 260,0.22
+sinistros_2017.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,CABANGA,0.03
+sinistros_2017.csv,tipo,object,Tipo de sinistro registrado,COLISÃO,0.01
+sinistros_2017.csv,auto,object,Informação sobre automóveis envolvidos,1,9.26
+sinistros_2017.csv,moto,object,Informação sobre motocicletas envolvidas,1,76.02
+sinistros_2017.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,99.29
+sinistros_2017.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,98.87
+sinistros_2017.csv,pedestre,object,Informação sobre pedestres envolvidos,1,97.69
+sinistros_2017.csv,onibus,object,Informação sobre ônibus envolvidos,1,84.9
+sinistros_2017.csv,caminhao,object,Informação sobre caminhões envolvidos,1,90.3
+sinistros_2017.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,98.8
+sinistros_2017.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,99.35
+sinistros_2017.csv,vitimas,object,Quantidade de vítimas registrada,0,0.46
+sinistros_2017.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,1,99.68
+sinistros_2018.csv,DATA,object,Data do registro do sinistro,2018-01-01,0.0
+sinistros_2018.csv,hora,object,Horário registrado do sinistro,00:01:00,0.11
+sinistros_2018.csv,natureza_acidente,object,Natureza do acidente,COM VÍTIMA,0.9
+sinistros_2018.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.04
+sinistros_2018.csv,bairro,object,Bairro onde ocorreu o sinistro,SÃO JOSÉ,0.22
+sinistros_2018.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV ENGENHEIRO JOSE ESTELITA,0.14
+sinistros_2018.csv,numero,object,Número do endereço informado,767,53.66
+sinistros_2018.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,RUA ALEGRE,80.21
+sinistros_2018.csv,complemento,object,Informações complementares sobre o local do sinistro,EM FRENTE AO CAIS JOSE ESTELITA,3.69
+sinistros_2018.csv,endereco_cruzamento,object,Logradouro do cruzamento associado ao sinistro,AV ENGENHEIRO JOSE ESTELITA,0.16
+sinistros_2018.csv,numero_cruzamento,object,Número do endereço associado ao cruzamento,767,53.68
+sinistros_2018.csv,referencia_cruzamento,object,Ponto de referência associado ao cruzamento,EM FRENTE AO CAIS JOSE ESTELITA,3.72
+sinistros_2018.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,SÃO JOSÉ,0.25
+sinistros_2018.csv,num_semaforo,object,Número de identificação do semáforo,68,93.87
+sinistros_2018.csv,sentido_via,object,Sentido de deslocamento registrado na via,CIDADE,84.61
+sinistros_2018.csv,tipo,object,Tipo de sinistro registrado,ATROPELAMENTO,0.0
+sinistros_2018.csv,descricao,object,Descrição textual da ocorrência,AUTO E PEDESTRE C/V,1.88
+sinistros_2018.csv,auto,object,Informação sobre automóveis envolvidos,1,8.73
+sinistros_2018.csv,moto,object,Informação sobre motocicletas envolvidas,1,76.54
+sinistros_2018.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,99.53
+sinistros_2018.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,98.59
+sinistros_2018.csv,pedestre,object,Informação sobre pedestres envolvidos,1,98.19
+sinistros_2018.csv,onibus,object,Informação sobre ônibus envolvidos,1,84.65
+sinistros_2018.csv,caminhao,object,Informação sobre caminhões envolvidos,1,89.27
+sinistros_2018.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,98.59
+sinistros_2018.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,98.89
+sinistros_2018.csv,vitimas,object,Quantidade de vítimas registrada,1,0.14
+sinistros_2018.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,1,99.76
+sinistros_2018.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Cruzamento,83.3
+sinistros_2018.csv,tempo_clima,object,Condição climática registrada,Bom,83.6
+sinistros_2018.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Sem defeito,83.73
+sinistros_2018.csv,sinalizacao,object,Condição da sinalização viária,Perfeito estado,83.82
+sinistros_2018.csv,condicao_via,object,Condição da via registrada,Seca,83.61
+sinistros_2018.csv,conservacao_via,object,Estado de conservação da via,Perfeito estado,83.78
+sinistros_2018.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Agente,85.3
+sinistros_2018.csv,situacao_placa,object,Situação das placas de sinalização no local,Não há placas,84.96
+sinistros_2018.csv,velocidade_max_via,object,Velocidade máxima permitida na via,60 km/h,95.15
+sinistros_2018.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Única,83.84
+sinistros_2018.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Faixa contínua,84.69
+sinistros_2018.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Canteiro central,99.39
+sinistros_2018.csv,divisao_via3,object,Terceira característica registrada da divisão da via,Canteiro central,99.63
+sinistros_2019.csv,DATA,object,Data do registro do sinistro,2019-01-01,0.0
+sinistros_2019.csv,hora,object,Horário registrado do sinistro,00:41:00,0.13
+sinistros_2019.csv,natureza_acidente,object,Natureza do acidente,SEM VÍTIMA,0.03
+sinistros_2019.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.03
+sinistros_2019.csv,bairro,object,Bairro onde ocorreu o sinistro,IPSEP,1.23
+sinistros_2019.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV RECIFE,0.44
+sinistros_2019.csv,numero,object,Número do endereço informado,100,50.15
+sinistros_2019.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,RUA MINISTRO NELSON HUNGRIA,64.28
+sinistros_2019.csv,complemento,object,Informações complementares sobre o local do sinistro,LADO OPOSTO AO Nº 3257,20.34
+sinistros_2019.csv,endereco_cruzamento,object,Logradouro do cruzamento associado ao sinistro,AV RECIFE,0.5
+sinistros_2019.csv,numero_cruzamento,object,Número do endereço associado ao cruzamento,100,50.17
+sinistros_2019.csv,referencia_cruzamento,object,Ponto de referência associado ao cruzamento,LADO OPOSTO AO Nº 3257,20.36
+sinistros_2019.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,IPSEP,1.27
+sinistros_2019.csv,num_semaforo,object,Número de identificação do semáforo,353,74.89
+sinistros_2019.csv,sentido_via,object,Sentido de deslocamento registrado na via,SUBURBIO,31.25
+sinistros_2019.csv,tipo,object,Tipo de sinistro registrado,COLISÃO TRASEIRA,0.0
+sinistros_2019.csv,descricao,object,Descrição textual da ocorrência,"ART.181, OBSTRUÇÃO DE ENTRADA E SAÍDA DE GARAGEM DO CONDOMINIO",2.49
+sinistros_2019.csv,auto,object,Informação sobre automóveis envolvidos,2,7.64
+sinistros_2019.csv,moto,object,Informação sobre motocicletas envolvidas,1,75.92
+sinistros_2019.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,99.6
+sinistros_2019.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,98.14
+sinistros_2019.csv,pedestre,object,Informação sobre pedestres envolvidos,1,97.89
+sinistros_2019.csv,onibus,object,Informação sobre ônibus envolvidos,1,84.99
+sinistros_2019.csv,caminhao,object,Informação sobre caminhões envolvidos,1,89.85
+sinistros_2019.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,98.99
+sinistros_2019.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,98.26
+sinistros_2019.csv,vitimas,object,Quantidade de vítimas registrada,0,0.22
+sinistros_2019.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,1,99.79
+sinistros_2019.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Longo da via,23.8
+sinistros_2019.csv,tempo_clima,object,Condição climática registrada,Bom,19.53
+sinistros_2019.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Não existe,20.57
+sinistros_2019.csv,sinalizacao,object,Condição da sinalização viária,Perfeito estado,21.04
+sinistros_2019.csv,condicao_via,object,Condição da via registrada,Seca,19.81
+sinistros_2019.csv,conservacao_via,object,Estado de conservação da via,Perfeito estado,21.03
+sinistros_2019.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Não existe,28.12
+sinistros_2019.csv,situacao_placa,object,Situação das placas de sinalização no local,Não há placas,27.6
+sinistros_2019.csv,velocidade_max_via,object,Velocidade máxima permitida na via,60 km/h,76.31
+sinistros_2019.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Única,21.06
+sinistros_2019.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Faixa seccionada,24.31
+sinistros_2019.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Faixa seccionada,92.47
+sinistros_2019.csv,divisao_via3,object,Terceira característica registrada da divisão da via,Blocos,98.76
+sinistros_2020.csv,data,object,Data do registro do sinistro,2020-01-01,0.0
+sinistros_2020.csv,hora,object,Horário registrado do sinistro,00:39:00,0.0
+sinistros_2020.csv,natureza_acidente,object,Natureza do acidente,SEM VÍTIMA,0.02
+sinistros_2020.csv,situacao,object,Situação registrada da ocorrência,CANCELADA,0.02
+sinistros_2020.csv,bairro,object,Bairro onde ocorreu o sinistro,ÁGUA FRIA,0.83
+sinistros_2020.csv,endereco,object,Logradouro onde ocorreu o sinistro,RUA SAO SEBASTIAO,0.32
+sinistros_2020.csv,numero,object,Número do endereço informado,1687,43.38
+sinistros_2020.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,AV GENERAL SAN MARTIN,59.12
+sinistros_2020.csv,complemento,object,Informações complementares sobre o local do sinistro,EM FRENTE A IGREJA UNIVERSAL,11.68
+sinistros_2020.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,ÁGUA FRIA,0.86
+sinistros_2020.csv,num_semaforo,object,Número de identificação do semáforo,80,72.31
+sinistros_2020.csv,sentido_via,object,Sentido de deslocamento registrado na via,SUBURBIO,30.47
+sinistros_2020.csv,tipo,object,Tipo de sinistro registrado,COLISÃO,0.0
+sinistros_2020.csv,descricao,object,Descrição textual da ocorrência,COLISÃO ENTRE DOIS AUTOS S/V,2.54
+sinistros_2020.csv,auto,object,Informação sobre automóveis envolvidos,2,14.86
+sinistros_2020.csv,moto,object,Informação sobre motocicletas envolvidas,1,58.65
+sinistros_2020.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,1,99.54
+sinistros_2020.csv,ciclista,object,Informação sobre ciclistas envolvidos,1,96.29
+sinistros_2020.csv,pedestre,object,Informação sobre pedestres envolvidos,1,96.21
+sinistros_2020.csv,onibus,object,Informação sobre ônibus envolvidos,1,88.0
+sinistros_2020.csv,caminhao,object,Informação sobre caminhões envolvidos,1,92.79
+sinistros_2020.csv,viatura,object,Quantidade registrada de viaturas envolvidas,1,98.24
+sinistros_2020.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,1,98.53
+sinistros_2020.csv,vitimas,object,Quantidade de vítimas registrada,0,0.34
+sinistros_2020.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,1,99.49
+sinistros_2020.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Cruzamento,19.6
+sinistros_2020.csv,tempo_clima,object,Condição climática registrada,Bom,17.47
+sinistros_2020.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Sem defeito,18.7
+sinistros_2020.csv,sinalizacao,object,Condição da sinalização viária,Perfeito estado,19.09
+sinistros_2020.csv,condicao_via,object,Condição da via registrada,Seca,17.77
+sinistros_2020.csv,conservacao_via,object,Estado de conservação da via,Perfeito estado,18.94
+sinistros_2020.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Faixa de pedestre,23.22
+sinistros_2020.csv,situacao_placa,object,Situação das placas de sinalização no local,Não há placas,25.39
+sinistros_2020.csv,velocidade_max_via,object,Velocidade máxima permitida na via,60 km/h,73.22
+sinistros_2020.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Dupla,19.23
+sinistros_2020.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Canteiro central,21.51
+sinistros_2020.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Faixa seccionada,91.47
+sinistros_2020.csv,divisao_via3,object,Terceira característica registrada da divisão da via,Canteiro central,98.39
+sinistros_2021.csv,data,object,Data do registro do sinistro,2021-01-01,0.0
+sinistros_2021.csv,hora,object,Horário registrado do sinistro,19:44:00,0.0
+sinistros_2021.csv,natureza_acidente,object,Natureza do acidente,COM VÍTIMA,0.0
+sinistros_2021.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.0
+sinistros_2021.csv,bairro,object,Bairro onde ocorreu o sinistro,MADALENA,0.21
+sinistros_2021.csv,endereco,object,Logradouro onde ocorreu o sinistro,RUA BENFICA,0.17
+sinistros_2021.csv,numero,object,Número do endereço informado,353,45.34
+sinistros_2021.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,RUA GASTAO VIDIGAL,61.81
+sinistros_2021.csv,complemento,object,Informações complementares sobre o local do sinistro,EM FRENTE AO EXTRA NA SAIDA,7.56
+sinistros_2021.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,MADALENA,0.21
+sinistros_2021.csv,num_semaforo,object,Número de identificação do semáforo,281,74.33
+sinistros_2021.csv,sentido_via,object,Sentido de deslocamento registrado na via,SUBURBIO,36.43
+sinistros_2021.csv,tipo,object,Tipo de sinistro registrado,COLISÃO FRONTAL,2.44
+sinistros_2021.csv,auto,object,Informação sobre automóveis envolvidos,1,0.0
+sinistros_2021.csv,moto,object,Informação sobre motocicletas envolvidas,1,0.0
+sinistros_2021.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,0,0.0
+sinistros_2021.csv,ciclista,object,Informação sobre ciclistas envolvidos,0,0.0
+sinistros_2021.csv,pedestre,object,Informação sobre pedestres envolvidos,0,0.0
+sinistros_2021.csv,onibus,object,Informação sobre ônibus envolvidos,0,0.0
+sinistros_2021.csv,caminhao,object,Informação sobre caminhões envolvidos,0,0.0
+sinistros_2021.csv,viatura,object,Quantidade registrada de viaturas envolvidas,0,0.0
+sinistros_2021.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,0,0.0
+sinistros_2021.csv,vitimas,object,Quantidade de vítimas registrada,1,0.0
+sinistros_2021.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,0,0.0
+sinistros_2021.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Longo da via,25.0
+sinistros_2021.csv,tempo_clima,object,Condição climática registrada,Bom,24.54
+sinistros_2021.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Não existe,25.29
+sinistros_2021.csv,sinalizacao,object,Condição da sinalização viária,Perfeito estado,26.3
+sinistros_2021.csv,condicao_via,object,Condição da via registrada,Seca,24.71
+sinistros_2021.csv,conservacao_via,object,Estado de conservação da via,Perfeito estado,25.88
+sinistros_2021.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Outros,28.4
+sinistros_2021.csv,situacao_placa,object,Situação das placas de sinalização no local,Não há placas,29.87
+sinistros_2021.csv,velocidade_max_via,object,Velocidade máxima permitida na via,60 km/h,72.48
+sinistros_2021.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Dupla,26.81
+sinistros_2021.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Faixa contínua,28.53
+sinistros_2021.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Faixa seccionada,91.93
+sinistros_2021.csv,divisao_via3,object,Terceira característica registrada da divisão da via,Canteiro central,98.66
+sinistros_2022.csv,Protocolo,object,Identificador de protocolo da ocorrência,"202200001,0",0.0
+sinistros_2022.csv,data,object,Data do registro do sinistro,2022-01-01,0.0
+sinistros_2022.csv,hora,object,Horário registrado do sinistro,Sem dados,100.0
+sinistros_2022.csv,natureza,object,Natureza do sinistro,COM VÍTIMA,0.0
+sinistros_2022.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.0
+sinistros_2022.csv,bairro,object,Bairro onde ocorreu o sinistro,JORDÃO,0.37
+sinistros_2022.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV MARIA IRENE,0.22
+sinistros_2022.csv,numero,object,Número do endereço informado,"130,0",43.76
+sinistros_2022.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,RUA CARNEIRO VILELA,62.05
+sinistros_2022.csv,complemento,object,Informações complementares sobre o local do sinistro,LADO OPOSTO AO NÚMERO 4728,5.81
+sinistros_2022.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,JORDÃO,0.37
+sinistros_2022.csv,num_semaforo,object,Número de identificação do semáforo,"471,0",76.36
+sinistros_2022.csv,sentido_via,object,Sentido de deslocamento registrado na via,SUBURBIO,41.85
+sinistros_2022.csv,tipo,object,Tipo de sinistro registrado,COLISÃO FRONTAL,3.97
+sinistros_2022.csv,auto,object,Informação sobre automóveis envolvidos,"1,0",0.0
+sinistros_2022.csv,moto,object,Informação sobre motocicletas envolvidas,"1,0",0.0
+sinistros_2022.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,"0,0",0.0
+sinistros_2022.csv,ciclista,object,Informação sobre ciclistas envolvidos,"0,0",0.0
+sinistros_2022.csv,pedestre,object,Informação sobre pedestres envolvidos,"0,0",0.0
+sinistros_2022.csv,onibus,object,Informação sobre ônibus envolvidos,"0,0",0.0
+sinistros_2022.csv,caminhao,object,Informação sobre caminhões envolvidos,"0,0",0.0
+sinistros_2022.csv,viatura,object,Quantidade registrada de viaturas envolvidas,"0,0",0.0
+sinistros_2022.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,"0,0",0.0
+sinistros_2022.csv,vitimas,object,Quantidade de vítimas registrada,"1,0",0.0
+sinistros_2022.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,"0,0",0.0
+sinistros_2022.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Longo da via,21.62
+sinistros_2022.csv,tempo_clima,object,Condição climática registrada,Bom,20.91
+sinistros_2022.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Não existe,21.69
+sinistros_2022.csv,sinalizacao,object,Condição da sinalização viária,Não existente,22.11
+sinistros_2022.csv,condicao_via,object,Condição da via registrada,Seca,21.21
+sinistros_2022.csv,conservacao_via,object,Estado de conservação da via,Perfeito estado,21.77
+sinistros_2022.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Não existe,24.99
+sinistros_2022.csv,situacao_placa,object,Situação das placas de sinalização no local,Não há placas,25.85
+sinistros_2022.csv,velocidade_max_via,object,Velocidade máxima permitida na via,40 km/h,71.26
+sinistros_2022.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Dupla,22.86
+sinistros_2022.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Não existe,24.09
+sinistros_2022.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Canteiro central,92.13
+sinistros_2022.csv,divisao_via3,object,Terceira característica registrada da divisão da via,Canal,98.84
+sinistros_2023.csv,Protocolo,object,Identificador de protocolo da ocorrência,"202300005,0",0.0
+sinistros_2023.csv,data,object,Data do registro do sinistro,2023-01-01,0.0
+sinistros_2023.csv,hora,object,Horário registrado do sinistro,03:37:00,0.0
+sinistros_2023.csv,natureza,object,Natureza do sinistro,COM VÍTIMA,0.0
+sinistros_2023.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.0
+sinistros_2023.csv,bairro,object,Bairro onde ocorreu o sinistro,MADALENA,0.3
+sinistros_2023.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV ENGENHEIRO ABDIAS DE CARVALHO,0.15
+sinistros_2023.csv,numero,object,Número do endereço informado,167,53.03
+sinistros_2023.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,RUA CARLOS GOMES,82.86
+sinistros_2023.csv,complemento,object,Informações complementares sobre o local do sinistro,E/F AO POSTO BR - ANTES DA FIR - SENTIDO SUB/CID,7.94
+sinistros_2023.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,MADALENA,0.3
+sinistros_2023.csv,num_semaforo,object,Número de identificação do semáforo,"460,0",91.49
+sinistros_2023.csv,sentido_via,object,Sentido de deslocamento registrado na via,CIDADE,86.11
+sinistros_2023.csv,tipo,object,Tipo de sinistro registrado,ATROPELAMENTO DE PESSOA,3.03
+sinistros_2023.csv,auto,object,Informação sobre automóveis envolvidos,"1,0",0.0
+sinistros_2023.csv,moto,object,Informação sobre motocicletas envolvidas,"0,0",0.0
+sinistros_2023.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,"0,0",0.0
+sinistros_2023.csv,ciclista,object,Informação sobre ciclistas envolvidos,"0,0",0.0
+sinistros_2023.csv,pedestre,object,Informação sobre pedestres envolvidos,"1,0",0.0
+sinistros_2023.csv,onibus,object,Informação sobre ônibus envolvidos,"0,0",0.0
+sinistros_2023.csv,caminhao,object,Informação sobre caminhões envolvidos,"0,0",0.0
+sinistros_2023.csv,viatura,object,Quantidade registrada de viaturas envolvidas,"0,0",0.0
+sinistros_2023.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,"0,0",0.0
+sinistros_2023.csv,vitimas,object,Quantidade de vítimas registrada,"1,0",0.0
+sinistros_2023.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,"0,0",0.0
+sinistros_2023.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Sem dados,100.0
+sinistros_2023.csv,tempo_clima,object,Condição climática registrada,Sem dados,100.0
+sinistros_2023.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Sem dados,100.0
+sinistros_2023.csv,sinalizacao,object,Condição da sinalização viária,Sem dados,100.0
+sinistros_2023.csv,condicao_via,object,Condição da via registrada,Sem dados,100.0
+sinistros_2023.csv,conservacao_via,object,Estado de conservação da via,Sem dados,100.0
+sinistros_2023.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Sem dados,100.0
+sinistros_2023.csv,situacao_placa,object,Situação das placas de sinalização no local,Sem dados,100.0
+sinistros_2023.csv,velocidade_max_via,object,Velocidade máxima permitida na via,Sem dados,100.0
+sinistros_2023.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Sem dados,100.0
+sinistros_2023.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Sem dados,100.0
+sinistros_2023.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Sem dados,100.0
+sinistros_2024.csv,Protocolo,object,Identificador de protocolo da ocorrência,"292972,0",0.0
+sinistros_2024.csv,data,object,Data do registro do sinistro,2024-01-01,0.0
+sinistros_2024.csv,hora,object,Horário registrado do sinistro,06:05:00,0.0
+sinistros_2024.csv,natureza,object,Natureza do sinistro,COM VÍTIMA,0.0
+sinistros_2024.csv,situacao,object,Situação registrada da ocorrência,FINALIZADA,0.0
+sinistros_2024.csv,bairro,object,Bairro onde ocorreu o sinistro,VASCO DA GAMA,0.13
+sinistros_2024.csv,endereco,object,Logradouro onde ocorreu o sinistro,AV NORTE MIGUEL ARRAES DE ALENCAR,0.34
+sinistros_2024.csv,numero,object,Número do endereço informado,1353,54.49
+sinistros_2024.csv,detalhe_endereco_acidente,object,Detalhamento do endereço do sinistro,AV NORTE MIGUEL ARRAES DE ALENCAR,86.87
+sinistros_2024.csv,complemento,object,Informações complementares sobre o local do sinistro,E/F A IGREJA QUADRANGULAR SENTIDO MACAXEIRA,5.25
+sinistros_2024.csv,bairro_cruzamento,object,Bairro associado ao cruzamento informado,VASCO DA GAMA,0.13
+sinistros_2024.csv,num_semaforo,object,Número de identificação do semáforo,"51,0",96.26
+sinistros_2024.csv,sentido_via,object,Sentido de deslocamento registrado na via,SUBURBIO,92.91
+sinistros_2024.csv,tipo,object,Tipo de sinistro registrado,COLISÃO LATERAL,0.56
+sinistros_2024.csv,auto,object,Informação sobre automóveis envolvidos,"1,0",0.0
+sinistros_2024.csv,moto,object,Informação sobre motocicletas envolvidas,"0,0",0.0
+sinistros_2024.csv,ciclom,object,Quantidade registrada de ciclomotores envolvidos,"0,0",0.0
+sinistros_2024.csv,ciclista,object,Informação sobre ciclistas envolvidos,"0,0",0.0
+sinistros_2024.csv,pedestre,object,Informação sobre pedestres envolvidos,"0,0",0.0
+sinistros_2024.csv,onibus,object,Informação sobre ônibus envolvidos,"0,0",0.0
+sinistros_2024.csv,caminhao,object,Informação sobre caminhões envolvidos,"0,0",0.0
+sinistros_2024.csv,viatura,object,Quantidade registrada de viaturas envolvidas,"0,0",0.0
+sinistros_2024.csv,outros,object,Quantidade registrada de outros tipos de veículos envolvidos,"0,0",0.0
+sinistros_2024.csv,vitimas,object,Quantidade de vítimas registrada,"1,0",0.0
+sinistros_2024.csv,vitimasfatais,object,Quantidade de vítimas fatais registrada,"0,0",0.0
+sinistros_2024.csv,acidente_verificado,object,Localização do sinistro em relação à via ou cruzamento,Sem dados,100.0
+sinistros_2024.csv,tempo_clima,object,Condição climática registrada,Sem dados,100.0
+sinistros_2024.csv,situacao_semaforo,object,Condição de funcionamento do semáforo,Sem dados,100.0
+sinistros_2024.csv,sinalizacao,object,Condição da sinalização viária,Sem dados,100.0
+sinistros_2024.csv,condicao_via,object,Condição da via registrada,Sem dados,100.0
+sinistros_2024.csv,conservacao_via,object,Estado de conservação da via,Sem dados,100.0
+sinistros_2024.csv,ponto_controle,object,Tipo de controle de tráfego presente no local,Sem dados,100.0
+sinistros_2024.csv,situacao_placa,object,Situação das placas de sinalização no local,Sem dados,100.0
+sinistros_2024.csv,velocidade_max_via,object,Velocidade máxima permitida na via,Sem dados,100.0
+sinistros_2024.csv,mao_direcao,object,"Sentido de circulação permitido na via, como mão única ou dupla",Sem dados,100.0
+sinistros_2024.csv,divisao_via1,object,Primeira característica registrada da divisão da via,Sem dados,100.0
+sinistros_2024.csv,divisao_via2,object,Segunda característica registrada da divisão da via,Sem dados,100.0
