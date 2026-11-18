@@ -140,6 +140,14 @@ def limpar(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     hora = pd.to_datetime(df["hora"].astype("string").str.strip().str[:5],
                           format="%H:%M", errors="coerce")
     df["hora"] = hora.dt.hour
+    # 3c) Arquivos com hora em formato de 12 h sem AM/PM (2023 e 2024 na base real):
+    #     só existem valores de 1 a 12, então "07:00" pode ser 7h ou 19h. A hora
+    #     desses arquivos é ambígua e vira nulo (achado na revisão do F4).
+    h_max = df.groupby("arquivo_origem")["hora"].transform("max")
+    formato_12h = h_max.notna() & (h_max <= 12)
+    rel["hora_formato_12h_anulada"] = int((formato_12h & df["hora"].notna()).sum())
+    rel["arquivos_hora_12h"] = sorted(df.loc[formato_12h, "arquivo_origem"].unique().tolist())
+    df.loc[formato_12h, "hora"] = np.nan
     rel["sem_hora_mantidas"] = int(df["hora"].isna().sum())
 
     # 4) numéricos: vírgula decimal e vazio = 0 (campo de contagem não preenchido)
@@ -179,7 +187,9 @@ def limpar(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     df["mes"] = df["data"].dt.month
     df["dia_semana"] = df["data"].dt.dayofweek.map(DIAS)
     df["turno"] = df["hora"].map(_turno)
-    df["horario_pico"] = df["hora"].isin(list(PICO_MANHA) + list(PICO_TARDE))
+    # pico desconhecido quando a hora é desconhecida (nulo, e não "falso")
+    df["horario_pico"] = df["hora"].isin(list(PICO_MANHA) + list(PICO_TARDE)).astype("boolean")
+    df.loc[df["hora"].isna(), "horario_pico"] = pd.NA
     # UPS — Unidade Padrão de Severidade (Programa PARE, Ministério dos Transportes, 2002):
     # danos materiais = 1 | com feridos = 4 | feridos envolvendo pedestre = 6 | com óbito = 13
     com_ferido = df["classificacao"].eq("COM VITIMA")

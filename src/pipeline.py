@@ -95,6 +95,7 @@ def tabela_antes_depois(metricas: dict) -> pd.DataFrame:
         ("Registros sem data válida", s["sem_data_valida_removidas"], 0),
         ("Datas com ano errado (bug ano-semana ISO) corrigidas", s["datas_ano_iso_corrigidas"], 0),
         ("Datas fora do ano do arquivo", s["datas_fora_do_ano_do_arquivo_removidas"], 0),
+        ("Horas ambíguas (formato 12 h sem AM/PM, 2023–2024)", s["hora_formato_12h_anulada"], "nulo"),
         ("Classificação vazia (inferida pelas vítimas)", s["classificacao_inferida"], 0),
         ("Óbitos só na classificação (vitimasfatais corrigido)",
          s["vitimasfatais_corrigidas_pela_classificacao"], 0),
