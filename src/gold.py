@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from src.config import GOLD_ARQUIVOS
+from src.config import ANOS_CLIMA, GOLD_ARQUIVOS
 from src.utils import log, salvar_csv
 
 MODAIS = ["auto", "moto", "ciclom", "ciclista", "pedestre", "onibus", "caminhao"]
@@ -63,8 +63,9 @@ def modais_vitimas(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clima_via(df: pd.DataFrame) -> pd.DataFrame:
-    """Só registros com clima E via informados (na base real: ~2019–2022)."""
-    base = df[df["tempo_clima"].ne("NAO INFORMADO") & df["condicao_via"].ne("NAO INFORMADO")]
+    """Recorte 2019–2022 (config.ANOS_CLIMA), só com clima E via informados."""
+    base = df[df["ano"].isin(list(ANOS_CLIMA))
+              & df["tempo_clima"].ne("NAO INFORMADO") & df["condicao_via"].ne("NAO INFORMADO")]
     return (base.groupby(["tempo_clima", "condicao_via"])
               .agg(sinistros=("data", "size"),
                    severidade_media=("indice_severidade", "mean"),

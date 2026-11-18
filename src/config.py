@@ -57,6 +57,13 @@ ENCODING_SAIDA = "utf-8"
 SEP_SAIDA = ","
 DPI_FIGURAS = 300
 
+# Recorte da análise de clima/condição da via: únicos anos com o campo preenchido
+# de forma consistente na base da CTTU (ver docs/AUDITORIA_DADOS.md, achado 7)
+ANOS_CLIMA = range(2019, 2023)  # 2019–2022
+
+# Lançamento do Bate-Pronto (registro online de sinistro sem vítima) — quebra da série
+DATA_BATE_PRONTO = "2020-07-17"
+
 # Horários de pico (definição única para todo o grupo)
 PICO_MANHA = range(6, 9)    # 06:00–08:59
 PICO_TARDE = range(17, 20)  # 17:00–19:59
