@@ -1,9 +1,9 @@
 {
-  "executado_em": "2026-11-18T08:14:09",
+  "executado_em": "2026-11-18T08:21:19",
   "tempos_s": {
-    "bronze": 0.65,
-    "silver": 2.65,
-    "gold": 0.12
+    "bronze": 0.73,
+    "silver": 2.9,
+    "gold": 0.13
   },
   "bronze": {
     "arquivos": [
@@ -123,7 +123,12 @@
     "sem_data_valida_removidas": 0,
     "datas_ano_iso_corrigidas": 32,
     "datas_fora_do_ano_do_arquivo_removidas": 0,
-    "sem_hora_mantidas": 2442,
+    "hora_formato_12h_anulada": 8504,
+    "arquivos_hora_12h": [
+      "sinistros_2023.csv",
+      "sinistros_2024.csv"
+    ],
+    "sem_hora_mantidas": 10946,
     "nulos_numericos_imputados_zero": 402053,
     "classificacao_inferida": 28,
     "classificacao_nao_sinistro_removidas": 8,
@@ -131,7 +136,7 @@
     "vitimas_ajustadas_para_1": 212,
     "linhas_saida": 60225,
     "colunas_saida": 27,
-    "nulos_saida": 4884,
+    "nulos_saida": 32838,
     "bairros_distintos_saida": 93
   },
   "gold": {

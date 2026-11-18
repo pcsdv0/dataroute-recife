@@ -30,8 +30,9 @@ COLUNAS_NUMERICAS_SILVER: list[str] = [
     "onibus", "caminhao", "vitimas", "vitimasfatais", "indice_severidade",
 ]
 
-# Colunas que podem ter nulo legítimo (ex.: 2022 não tem hora na base da CTTU)
-COLUNAS_NULO_PERMITIDO = {"hora", "turno"}
+# Colunas que podem ter nulo legítimo: 2022 não tem hora e 2023–2024 têm hora
+# ambígua (formato 12 h sem AM/PM) na base da CTTU
+COLUNAS_NULO_PERMITIDO = {"hora", "turno", "horario_pico"}
 
 TURNOS_VALIDOS = {"MADRUGADA", "MANHA", "TARDE", "NOITE"}
 CLASSES_VALIDAS = {"SEM VITIMA", "COM VITIMA", "VITIMA FATAL"}
