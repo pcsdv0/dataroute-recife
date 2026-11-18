@@ -63,15 +63,30 @@ def modais_vitimas(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clima_via(df: pd.DataFrame) -> pd.DataFrame:
-    """Recorte 2019–2022 (config.ANOS_CLIMA), só com clima E via informados."""
+    """Recorte 2019–2022 (config.ANOS_CLIMA), só com clima E via informados.
+
+    A gravidade é medida ENTRE OS SINISTROS COM VÍTIMA: os dias de chuva se
+    concentram em 2021–2022, quando o Bate-Pronto já tinha tirado quase todos os
+    sinistros sem vítima da base. Comparar a severidade de todos os sinistros
+    misturaria o efeito do clima com essa mudança de registro.
+    """
     base = df[df["ano"].isin(list(ANOS_CLIMA))
               & df["tempo_clima"].ne("NAO INFORMADO") & df["condicao_via"].ne("NAO INFORMADO")]
-    return (base.groupby(["tempo_clima", "condicao_via"])
-              .agg(sinistros=("data", "size"),
-                   severidade_media=("indice_severidade", "mean"),
-                   fatais=("vitimasfatais", "sum"))
-              .round(2).reset_index()
-              .sort_values("sinistros", ascending=False))
+    com_vitima = base[base["classificacao"].isin(CLASSES_COM_VITIMA)]
+    total = base.groupby(["tempo_clima", "condicao_via"]).size().rename("sinistros")
+    g = (com_vitima.groupby(["tempo_clima", "condicao_via"])
+         .agg(sinistros_com_vitima=("data", "size"),
+              severidade_media_com_vitima=("indice_severidade", "mean"),
+              fatais=("vitimasfatais", "sum"),
+              sinistros_com_obito=("vitima_fatal", "sum")))
+    g = pd.concat([total, g], axis=1).fillna(0)
+    g["pct_com_obito"] = (100 * g["sinistros_com_obito"] / g["sinistros_com_vitima"]).round(2)
+    g["severidade_media_com_vitima"] = g["severidade_media_com_vitima"].round(2)
+    sem_base = g["sinistros_com_vitima"] == 0
+    g.loc[sem_base, "severidade_media_com_vitima"] = float("nan")
+    inteiros = ["sinistros", "sinistros_com_vitima", "fatais", "sinistros_com_obito"]
+    g[inteiros] = g[inteiros].astype(int)
+    return g.reset_index().sort_values("sinistros", ascending=False)
 
 
 def run(df: pd.DataFrame) -> dict:

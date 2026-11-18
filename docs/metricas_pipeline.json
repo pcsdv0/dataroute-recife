@@ -1,9 +1,9 @@
 {
-  "executado_em": "2026-11-18T08:21:19",
+  "executado_em": "2026-11-18T08:30:09",
   "tempos_s": {
-    "bronze": 0.73,
-    "silver": 2.9,
-    "gold": 0.13
+    "bronze": 0.67,
+    "silver": 2.59,
+    "gold": 0.12
   },
   "bronze": {
     "arquivos": [

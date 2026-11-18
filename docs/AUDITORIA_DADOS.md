@@ -83,7 +83,7 @@ Unidade Padrão de Severidade, com os pesos do Programa PARE (Ministério dos Tr
 ## 6. Regras para quem analisa (F4/F5)
 
 1. Para comparar anos, use só `classificacao != "SEM VITIMA"`.
-2. Clima/via: recorte de 2019–2022, sem `NAO INFORMADO` (a tabela Gold já filtra).
+2. Clima/via: recorte de 2019–2022, sem `NAO INFORMADO`, e gravidade medida **só entre sinistros com vítima** (a tabela Gold já faz isso). Os dias de chuva se concentram em 2021–2022, depois do Bate-Pronto: comparar todos os sinistros mistura o efeito do clima com a mudança de registro. Resultado: tempo bom/via seca 1,16% com óbito x chuva/via molhada 2,00%, diferença não significativa (p = 0,08).
 3. Horário (heatmap, pico, turno): só 2015–2021. 2022 não tem hora e 2023–2024 têm hora ambígua (12 h). Diga isso na legenda.
 4. Mortes: use `vitimasfatais` ou `vitima_fatal` da Silver, que já estão corrigidos.
 5. Bairros: 93 valores (92 dos 94 oficiais + NAO INFORMADO). Qualquer número diferente indica que a padronização foi pulada.
