@@ -10,7 +10,7 @@ digraph G {
     s3 [label="Base 3 (opcional)\nMalha cicloviária e\ncorredores de ônibus", fillcolor="#FFFFFF", color="#8A97A8", style="rounded,dashed"];
   }
   bronze [label="BRONZE\ndata/raw\n\n10 CSVs CTTU 2015–2024 intocados\n72.255 chamados · 21,7 MB\nVolumetria e dicionário\n(F2)", fillcolor="#F3E3D3", color="#B07A4B"];
-  silver [label="SILVER\ndata/processed\n\nHarmoniza 3 layouts anuais\nRemove cancelados e duplicidades\n94 bairros oficiais · nulos tratados\nFeature Eng.: turno, pico, UPS\n60.225 sinistros\n(F3)", fillcolor="#E6E9EC", color="#7D8791"];
+  silver [label="SILVER\ndata/processed\n\nHarmoniza 3 layouts anuais\nRemove cancelados e duplicidades\n92 bairros oficiais + não informado\nFeature Eng.: turno, pico, UPS\n60.225 sinistros\n(F3)", fillcolor="#E6E9EC", color="#7D8791"];
   gold   [label="GOLD\ndata/processed/gold\n\n5 tabelas analíticas:\nsérie temporal · top 10 bairros\ndia×hora · modais · clima×via\n(F4)", fillcolor="#F6EBC8", color="#B8962E"];
   out    [label="Consumo\n\nGráficos 300 DPI (F5)\nRelatório ABNT (F6)\nPitch / Slides", fillcolor="#E3EEE6", color="#5E8B6B"];
   orq    [label="Orquestrador  src/pipeline.py  (F1)\ncaminhos relativos (pathlib) · contratos de dados · métricas JSON", shape=box, style="filled", fillcolor="#2F3B4C", fontcolor="white", color="#2F3B4C", fontsize=10];
