@@ -27,7 +27,7 @@ Os CSVs originais estão versionados em `data/raw/`, cópias byte a byte do port
 |---|---:|---:|
 | Registros | 72.255 chamados | 60.225 sinistros |
 | Colunas | 45 (3 layouts anuais) | 27 (contrato) |
-| Bairros | 126 grafias | 94 oficiais + "não informado" |
+| Bairros | 126 grafias | 92 dos 94 oficiais + "não informado" |
 
 Os achados da base real (layouts que mudam, vírgula decimal, chamados cancelados, efeito do Bate-Pronto em 2020 etc.) estão em [`docs/AUDITORIA_DADOS.md`](docs/AUDITORIA_DADOS.md). **Leitura obrigatória antes de analisar.**
 
