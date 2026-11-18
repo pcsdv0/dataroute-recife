@@ -40,7 +40,7 @@ Os números abaixo saem de `python -m src.pipeline` (fonte: `docs/metricas_pipel
 | 6 | **Hora ausente em 2022** (100% vazia). | O heatmap dia×hora fica sem 2022. | Hora mantida como nulo, nada é descartado. É a única coluna com nulo permitido no contrato. |
 | 7 | **Clima e condição da via** só são confiáveis em 2019–2022 (85–96% preenchidos). Não existem em 2015–2017, cobrem 19% em 2018 e estão vazios em 2023–2024. | A análise de clima não vale para a série inteira. | `NAO INFORMADO` é excluído da tabela Gold de clima. O texto tem que deixar claro o recorte de 2019–2022. |
 | 8 | **Quebra estrutural em jul/2020:** os sinistros SEM vítima caem de 8.104 (2019) para 435 (2021). Coincide com o lançamento do **Bate-Pronto** (17/07/2020), registro online de colisão sem vítima feito pelo próprio cidadão, que não entra nesta base. | Uma série "total de sinistros" mostra uma queda falsa. | Comparação entre anos **só com sinistros COM vítima** (ver tabela 4) |
-| 9 | **Grafias de bairro:** 126 grafias brutas viram **94 bairros oficiais + NAO INFORMADO**. Exemplos: IPESEP→IPSEP, JOANA BEZERRA→ILHA JOANA BEZERRA, SETÚBAL→BOA VIAGEM (Setúbal é localidade, não bairro oficial). | Rankings fragmentados. | Remoção de acentos, caixa alta e `CORRECAO_BAIRROS` |
+| 9 | **Grafias de bairro:** 126 grafias brutas viram **92 dos 94 bairros oficiais + NAO INFORMADO** (93 valores). Exemplos: IPESEP→IPSEP, JOANA BEZERRA→ILHA JOANA BEZERRA, SETÚBAL→BOA VIAGEM (Setúbal é localidade, não bairro oficial). Dois nomes de agentes digitados no campo bairro (MARCELO, 2015; FABIO, 2017) viram NAO INFORMADO (achado do F3). Pau-Ferro e Peixinhos, bairros oficiais, não têm nenhuma ocorrência registrada. | Rankings fragmentados. | Remoção de acentos, caixa alta e `CORRECAO_BAIRROS` |
 | 10 | **Encoding:** todos os arquivos são UTF-8 com separador `;`. | O plano cita UTF-8 x Latin-1, mas nesta base não houve Latin-1. | O leitor mantém a detecção automática, por robustez. **O relatório não deve afirmar que havia Latin-1.** |
 
 ## 4. Antes vs. Depois da Limpeza (quadro oficial da Seção 4)
@@ -57,7 +57,7 @@ Os números abaixo saem de `python -m src.pipeline` (fonte: `docs/metricas_pipel
 | Classificação vazia | 28 | 0 (inferida pelas vítimas) |
 | Óbitos só na classificação | 24 | 0 (`vitimasfatais` corrigido) |
 | Sinistros com vítima sem contagem de vítimas | 212 | 0 (ajustado para 1) |
-| Bairros distintos | 126 | 95 (94 oficiais + NAO INFORMADO) |
+| Bairros distintos | 126 | 93 (92 dos 94 oficiais + NAO INFORMADO) |
 | Valores nulos | 1.733.304 | 4.884 (só `hora`/`turno` de 2022) |
 
 Tempo de execução do pipeline completo: cerca de 4 s (Bronze 0,6 s · Silver 3,0 s · Gold 0,1 s).
@@ -84,4 +84,4 @@ Unidade Padrão de Severidade, com os pesos do Programa PARE (Ministério dos Tr
 2. Clima/via: recorte de 2019–2022, sem `NAO INFORMADO` (a tabela Gold já filtra).
 3. Heatmap dia×hora: 2022 fica fora (sem hora). Diga isso na legenda.
 4. Mortes: use `vitimasfatais` ou `vitima_fatal` da Silver, que já estão corrigidos.
-5. Bairros: 94 oficiais. Qualquer número diferente indica que a padronização foi pulada.
+5. Bairros: 93 valores (92 dos 94 oficiais + NAO INFORMADO). Qualquer número diferente indica que a padronização foi pulada.

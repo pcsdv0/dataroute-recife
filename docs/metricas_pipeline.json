@@ -1,9 +1,9 @@
 {
-  "executado_em": "2026-11-15T22:07:01",
+  "executado_em": "2026-11-18T08:10:05",
   "tempos_s": {
-    "bronze": 0.62,
-    "silver": 3.02,
-    "gold": 0.12
+    "bronze": 0.55,
+    "silver": 2.87,
+    "gold": 0.11
   },
   "bronze": {
     "arquivos": [
@@ -132,7 +132,7 @@
     "linhas_saida": 60225,
     "colunas_saida": 27,
     "nulos_saida": 4884,
-    "bairros_distintos_saida": 95
+    "bairros_distintos_saida": 93
   },
   "gold": {
     "serie_temporal": 329,

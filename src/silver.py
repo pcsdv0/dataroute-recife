@@ -48,6 +48,9 @@ CORRECAO_BAIRROS: dict[str, str] = {
     "IPESEP": "IPSEP",                          # erro de digitação
     "JOANA BEZERRA": "ILHA JOANA BEZERRA",      # nome oficial do bairro
     "SETUBAL": "BOA VIAGEM",                    # localidade; oficialmente parte de Boa Viagem
+    # Nomes de agentes digitados por engano no campo bairro (achado do F3/Wagner)
+    "MARCELO": "NAO INFORMADO",                 # 2015, 1 registro
+    "FABIO": "NAO INFORMADO",                   # 2017, 1 registro
 }
 
 
